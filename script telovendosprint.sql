@@ -15,7 +15,6 @@ categoria_producto varchar(50) not null,
 email varchar(40) not null); -- Se crea la tabla "proveedor" con los atributos solicitados.
 
 create table contacto_proveedor (
-id_contacto int unsigned auto_increment not null primary key,
 RUT int unsigned not null,
 telefono int unsigned not null,
 recepcionista varchar(50) not null,
@@ -30,7 +29,6 @@ color varchar(20) not null,
 stock int unsigned not null); -- Se crea la tabla "producto" con los atributos solicitados.
 
 create table producto_proveedor (
-id_prpv int unsigned not null auto_increment primary key,
 RUT int unsigned not null,
 SKU varchar(12) not null,
 foreign key (RUT) references proveedor(RUT), foreign key (SKU) references producto(SKU)); -- Se crea la tabla intermedia "producto_proveedor" que relacione los proveedores con los productos.
@@ -42,7 +40,6 @@ apellido varchar(30) not null,
 direccion varchar(60) not null); -- Se crea la tabla "cliente" con los atributos solicitados.
 
 create table compra_venta (
-id_venta int unsigned not null auto_increment primary key,
 SKU varchar(12) not null,
 id_cliente int unsigned not null,
 foreign key (SKU) references producto(SKU), foreign key (id_cliente) references cliente(id_cliente)); -- Se crea la tabla intermedia "compra_venta" que almacene las compras de los clientes y sus respectivos productos.
