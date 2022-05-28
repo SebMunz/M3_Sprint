@@ -11,14 +11,14 @@
 ---------------
 
 ### Modelo relacional
-<img src="https://user-images.githubusercontent.com/104586558/170759408-5714983f-e07f-4a5f-a999-56f44b70c88e.jpeg" width="90%"></img> 
+<img src="https://user-images.githubusercontent.com/104586558/170802855-d4960e39-d4f4-4fda-9e71-d7f3459f8c67.jpeg" width="90%"></img> 
 
 <strong>Explicación Modelo Entidad Relación</strong>
 
 Para este modelo se consideraron 3 entidades fuertes, 1 débil y 2 compuestas
 Fuertes: Proveedor, Producto y Cliente
 Débil: contacto_proveedor
-Compuestas: proveedor_producto y compra_venta
+Compuestas: producto_proveedor y compra_venta
 
 En el proceso de normalización de la entidad proveedor nos dimos cuentas que podía tener mas de un teléfono de contacto, por esta razón se decidió crear un tabla (contacto_proveedor) que almacenara los teléfonos de cada proveedor, asociándolas por el Rut del mismo.
 
@@ -26,6 +26,7 @@ En relación con la entidad producto y con la idea de que un proveedor podía, e
 
 Respecto de la entidad cliente y su relación con los productos, se hizo necesaria una tabla intermedia que almacenará todas las compras de los clientes con sus respectivos productos.
 
+<!---
 <strong>Transformación</strong>
 
 Se realiza el diagrama relación-entidad con las siguientes categorías:
@@ -68,3 +69,4 @@ Sexta tabla:
 Cliente
 id_cliente (llave primaria), Nombre, Apellido, dirección
 
+---->
