@@ -26,7 +26,7 @@ nombre varchar(25) not null,
 precio int unsigned not null,
 categoria varchar(40) not null,
 color varchar(20) not null,
-stock int unsigned not null); -- Se crea la tabla "producto" con los atributos solicitados.
+stock int unsigned not null); /* Se crea la tabla "producto" con los atributos solicitados. Se omite la columna "proveedor" para integrarlo a través de la siguiente tabla. */
 
 create table producto_proveedor (
 RUT int unsigned not null,
