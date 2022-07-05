@@ -1,10 +1,10 @@
 # M3_Sprint
 ## Sprint final módulo 3
 ### Integrantes
-* [Miguel Lucero](https://github.com/miguellucero123)
-* [Pamela Correa](https://github.com/Pame-b182)
-* [Nelson Medel](https://github.com/chinomedel)
-* [Sebastián Muñoz](https://github.com/SebMunz)
+* [Miguel Lucero](https://github.com/miguellucero123/Sprint-m4-java)
+* [Pamela Correa](https://github.com/Pame-b182/Sprint-m4-java)
+* [Nelson Medel](https://github.com/chinomedel/Sprint-m4-java)
+* [Sebastián Muñoz](https://github.com/SebMunz/Sprint-m4-java)
 
 
 
